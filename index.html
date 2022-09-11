@@ -3,12 +3,106 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Climate Bender</title>
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Cinzel:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5fff000997.js" crossorigin="anonymous"></script>
   </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <body class="bg-secondary">
+        <!-- Nav Bar Start -->
+        <nav class="navbar navbar-light bg-secondary sticky-top rounded opacity-75">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#top">
+              <img src="./img/logo2.jpg" alt="" width="30" height="29" class="d-inline-block align-text-top rounded">
+              Climate Bender
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link disabled">Disabled</a>
+              </div>
+          </div>
+        </nav>
+        <!-- Nav Bar End -->
+    
+        <!-- Jumbotron Start -->
+        <div class="j1 row Jumbotron align-items-center" id="top">
+          <div class="col">
+            <div class="container d-flex justify-content-center">
+              <h1 class="text-">Water</h1>
+            </div>
+          </div>
+        </div>
+        <div class="j2 row Jumbotron align-items-center">
+          <div class="col">
+            <div class="container d-flex justify-content-center">
+              <h1 class="text-">Earth</h1>
+            </div>
+          </div>
+        </div>
+        <div class="j3 row Jumbotron align-items-center">
+          <div class="col">
+            <div class="container d-flex justify-content-center">
+              <h1 class="text-">Fire</h1>
+            </div>
+          </div>
+        </div>
+        <div class="j4 row Jumbotron align-items-center">
+          <div class="col">
+            <div class="container d-flex justify-content-center">
+              <h1 class="text-">Air</h1>
+            </div>
+          </div>
+        </div>
+        <div class="padding-top align-items-center">
+          <h2 class="bg-light border border-4 rounded text-center">" Long ago the four elements around the world synchronized in harmony. Bodies of water were flooded with life and provided bountiful resources for all creatures. The forests covered the Earth, beautiful and lush homes to creatures of every sort. Now the greed of humans tears the roots of Gaia's trees in favor of shopping malls and poisons the air we all breathe. But I believe that one day, we will heal the Earth we all walk and appreciate the beauty of what thiss world has to offer. "</h2>
+        </div>
+        
+      <div class="container-fluid d-flex align-items-center ">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/pexels-yogendra-singh-2480807.jpg" class="card-img-top" alt="polluted lake">
+          <div class="card-body">
+            <p class="card-text text-center">Oil spills and wasted materials pollute our water</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./img/pexels-andre-moura-2532064.jpg" class="card-img-top" alt="deforestation">
+          <div class="card-body">
+            <p class="card-text text-center">Homes of endangerd animals are destroyed</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./img/pexels-pixabay-266487.jpg" class="card-img-top" alt="forest fires">
+          <div class="card-body">
+            <p class="card-text text-center">Flames engulf the few that are spared from humans</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./img/pexels-pixabay-60575.jpg" class="card-img-top" alt="air pollution">
+          <div class="card-body">
+            <p class="card-text text-center">Factories and cars poison the very air that we breathe</p>
+          </div>
+        </div>
+      </div>
+      <div class="bg-light rounded m-3">
+        <form class="text-center">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Sign up for our weekly newsletter! Stay informed!</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Cell Phone</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <button type="submit" class="btn btn-secondary mb-3">Subscribe</button>
+        </form>
+      </div>
     <script src="./css/bootstrap.min.css"></script>
   </body>
 </html>
