@@ -39,6 +39,19 @@ html {
     background-attachment: fixed;
     background-image: url(https://images.pexels.com/photos/2559484/pexels-photo-2559484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
+.c1{
+    display: flex;
+    gap: 10px;
+}
 form{
     
 }
+.footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: ghostwhite;
+    text-align: center;
+  }
