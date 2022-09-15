@@ -39,12 +39,33 @@ html {
     background-attachment: fixed;
     background-image: url(https://images.pexels.com/photos/2559484/pexels-photo-2559484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
+.i1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.img{
+    opacity: .25;
+}
+/* .intro{
+    height: 250px;
+    opacity: .25;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://t3.ftcdn.net/jpg/04/07/89/98/360_F_407899858_5EmoX2LHSDnfG27myVkenpLEY90s7uX3.jpg);
+} */
 .c1{
     display: flex;
     gap: 10px;
-}
-form{
-    
 }
 .footer {
     /* position: fixed; */
